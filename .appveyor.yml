@@ -34,7 +34,7 @@ for:
     - eval "$(ssh-agent)"
     - ssh-add
     - ssh-keyscan -H heroku.com >> ~/.ssh/known_hosts
-    - heroku git:remote -a example-ci-env-hide --ssh-git
+    - heroku git:remote -a example-ci-env-hide
     - git push heroku HEAD:master
 
 -
