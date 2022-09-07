@@ -1,0 +1,46 @@
+image: Ubuntu1804
+
+stack: node 14
+
+cache: node_modules
+
+environment:
+  priv_key:
+    secure: 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
+
+for:
+-
+  branches:
+    only:
+      - master
+
+  install:
+    - npm install
+
+  build: off
+
+  deploy_script:
+    - echo "-----BEGIN OPENSSH PRIVATE KEY-----" > $HOME/.ssh/id_rsa
+    - echo "${priv_key}" | tr " " "\n" >> $HOME/.ssh/id_rsa
+    - echo "-----END OPENSSH PRIVATE KEY-----" >> $HOME/.ssh/id_rsa
+    - chmod 400 $HOME/.ssh/id_rsa
+    - git config --global credential.helper store
+    - git config --global user.name AppVeyor
+    - git config --global user.email ci@appveyor.com
+    - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
+    - curl https://cli-assets.heroku.com/install.sh | sh
+    - eval "$(ssh-agent)"
+    - ssh-add
+    - ssh-keyscan -H heroku.com >> ~/.ssh/known_hosts
+    - heroku git:remote -a example-ci-env-hide --ssh-git
+    - git push heroku HEAD:master
+
+-
+  branches:
+    except:
+      - master
+
+  install:
+    - npm install  # команда установки зависимостей
+
+  build: off
